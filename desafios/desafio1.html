@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --color-red:red;
+            --blue-violet:#8A2BE2;
+        }
+
+        *{
+            padding:0;
+            margin:0;
+            border:0;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+            max-width: 100vw;
+            min-height: 100vh;
+        }
+
+        nav{
+            background-color:var(--blue-violet);
+            height:7vh;
+
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+
+        nav > ul{
+            list-style: none;
+
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav > ul > li{
+            padding:0px 20px;
+        }
+
+        main{
+            height:calc(100vh - 14vh);
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        main > section{
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main > section:nth-child(2){
+            background-color: var(--blue-violet);
+            width: 80vw;
+        }
+
+        footer{
+            background-color: var(--blue-violet);
+            height:7vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    Item 1
+                </li>
+                <li>
+                    Item 2
+                </li>
+                <li>
+                    Item 3
+                </li>
+                <li>
+                    Item 4
+                </li>
+                <li>
+                    Item 5
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            Essa vai ser a coluna da esquerda
+        </section>
+        <section>
+            Essa vai ser a coluna do meio.
+        </section>
+        <section>
+            Essa vai ser a coluna da direita
+        </section>
+    </main>
+    <footer>
+        Esse vai ser o rodapé.
+    </footer>
+</body>
+</html>
