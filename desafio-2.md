@@ -23,4 +23,5 @@
   - Botão, o "Touch id".
   
   
-  Você pode visualizar o modelo que eu fiz no [CodePen](https://codepen.io/schirrel/full/GRpOZVP)
+ ## Modelo que eu fiz 👇
+ <img src="./assets/desafio2/Iphone.png" />
